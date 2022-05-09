@@ -1,15 +1,15 @@
 /*HEADER*/
 .header{
     display: block;
-    height: 80px;
     background-color: #FFFFFF;
-    border: #575757 0.5px solid;
 }
 .container{
     padding: 0;
 }
 .navbar{
     background-color: #FFFFFF;
+    height: 80px;
+    border-bottom: #e7e7e7 0.1px solid;
 }
 .nav-link{
     font-size: 16px;
@@ -32,7 +32,7 @@
 /*BANNER*/
 .banner {
     position: relative;
-    height: 75vh;
+    height: 90vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -90,6 +90,52 @@
     font-family: "ProximaNova-Bold",sans-serif;
     font-size: 24px;
     color: #FFFFFF;
+}
+/*SECTION 1*/
+.row{
+    height: 550px;
+}
+.images-content{
+    width: 50%;
+    height: auto;
+}
+.title{
+    margin: 74px 35px 42px 110px;
+}
+.title h2{
+    padding-bottom: 32px;
+    font-size: 41px;
+    color: #FF5959;
+    text-align: left;
+    font-family:ProximaNova-Bold,sans-serif;
+}
+.title p{
+    font-size: 16px;
+    color: #575757;
+    line-height: 182%;
+    text-align: left;
+    font-family:"ProximaNova-Bold",sans-serif;
+}
+.rivew{
+    margin: 0px 33px 86px 110px;
+    display: flex;
+    text-align: center;
+}
+.rivew p{
+    float: right;
+}
+.text-rivew{
+    padding: 23px 0px 39px 43px;
+    font-size: 16px;
+    color: #575757;
+    line-height: 182%;
+    text-align: left;
+    font-family:"ProximaNova-Bold",sans-serif;
+
+}
+.image-review{
+    width: 84px;
+    height: 84px;
 }
 
 /*Call To Action*/
