@@ -250,7 +250,7 @@ html{
     border: 1px solid #979797;
     margin-bottom: 30px;
 }
-.form-left{
+/* .form-left{
     width: 555px;
     padding: 0;
     padding: 0 15px 0 0;
@@ -259,7 +259,7 @@ html{
     width: 555px;
     padding: 0;
     padding: 0 0 0 15px;
-}
+} */
 .form-center .form-control{
     height: auto;
 }
@@ -414,6 +414,7 @@ html{
 .navigation{
     text-align: center;
     padding: 0;
+    margin-top: 32px;
 }
 .navigation ul{
     flex-direction: row;
