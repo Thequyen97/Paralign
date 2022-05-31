@@ -28,14 +28,16 @@ html{
     font-size: 16px;
     font-weight: bold;
     font-family: 'ProximaNova-Bold';
+    color: #575757  ;
 }
-.navbar .container{
+.navbar .container{ 
         padding: 0 15px;
         margin: 0 89.5px;
     }
 .nav-item{
     display: flex;
-    padding: 0px 20px;
+    padding-left: 25px;
+    margin: 0 10px;
 }
 .navbar-nav a{
     font-family: proxima-nova-condensed, sans-serif;
@@ -438,7 +440,7 @@ html{
     color: #FF5959;
 }
 
-/*Reponsive*/
+/*Reponsive mobile app*/
 @media screen and (max-width: 600px) {
     .navbar-nav a:not(:first-child) {display: none;}
     .navbar-nav a.navbar-toggler {
@@ -460,4 +462,17 @@ html{
         text-align: left;
     }
 }
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px; } }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px; } }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px; } }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
 
