@@ -106,7 +106,7 @@ html{
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
-    /*margin-top: 80px;*/
+    margin-top: 80px;
 }
 
 .video-bg video {
@@ -331,6 +331,7 @@ html{
 .imagecontent img{
     width: 100%;
     height: 90vh;
+    height: auto;
 }
 .content-title{
     padding: 0 70px;
@@ -476,9 +477,6 @@ html{
     .phoneimage img {
         max-width: 100%;
     }
-    .imagecontent img{
-        height: 25vh;
-    }
 }
 @media (max-width: 992px) {
     .wrapper{
@@ -486,9 +484,6 @@ html{
     }
     .phoneimage img {
         max-width: 100%;
-    }
-    .imagecontent img {
-        height: 25vh;
     }
 @media (max-width: 768px) {
     .wrapper{
@@ -498,9 +493,6 @@ html{
          max-width: 100%;
     }
 
-    .imagecontent img {
-         height: 25vh;
-    }
 }
 @media (max-width: 576px) {
     .wrapper{
@@ -508,9 +500,5 @@ html{
     }
     .phoneimage img {
         max-width: 100%;
-    }
-    .imagecontent img {
-        height: 0vh;
-    }
     }
 }
