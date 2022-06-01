@@ -34,6 +34,17 @@ html{
         padding: 0 15px;
         margin: 0 89.5px;
     }
+.navbar-collapse{
+    background-color: #FFFFFF;
+    z-index: 199;
+}
+.fixed-nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 200;
+}
 .nav-item{
     display: flex;
     padding-left: 25px;
@@ -95,7 +106,7 @@ html{
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
-    margin-top: 80px;
+    /*margin-top: 80px;*/
 }
 
 .video-bg video {
@@ -252,16 +263,6 @@ html{
     border: 1px solid #979797;
     margin-bottom: 30px;
 }
-/* .form-left{
-    width: 555px;
-    padding: 0;
-    padding: 0 15px 0 0;
-}
-.form-right{
-    width: 555px;
-    padding: 0;
-    padding: 0 0 0 15px;
-} */
 .form-center .form-control{
     height: auto;
 }
@@ -442,6 +443,9 @@ html{
 
 /*Reponsive mobile app*/
 @media screen and (max-width: 600px) {
+    .wrapper{
+        width: 100%;
+    }
     .navbar-nav a:not(:first-child) {display: none;}
     .navbar-nav a.navbar-toggler {
         float: right;
@@ -450,6 +454,9 @@ html{
 }
 
 @media screen and (max-width: 600px) {
+    .wrapper{
+        width: 100%;
+    }
     .navbar-nav.responsive {position: relative;}
     .navbar-nav.responsive .navbar-toggler {
         position: absolute;
@@ -462,17 +469,48 @@ html{
         text-align: left;
     }
 }
-@media (min-width: 576px) {
-    .container {
-      max-width: 540px; } }
-  @media (min-width: 768px) {
-    .container {
-      max-width: 720px; } }
-  @media (min-width: 992px) {
-    .container {
-      max-width: 960px; } }
-  @media (min-width: 1200px) {
-    .container {
-      max-width: 1140px;
+@media (min-width: 1200px) {
+    .wrapper{
+        width: 100%;
+    }
+    .phoneimage img {
+        max-width: 100%;
+    }
+    .imagecontent img{
+        height: 25vh;
+    }
+}
+@media (max-width: 992px) {
+    .wrapper{
+        width: 100%;
+    }
+    .phoneimage img {
+        max-width: 100%;
+    }
+    .imagecontent img {
+        height: 25vh;
+    }
+@media (max-width: 768px) {
+    .wrapper{
+        width: 100%;
+    }
+    .phoneimage img {
+         max-width: 100%;
     }
 
+    .imagecontent img {
+         height: 25vh;
+    }
+}
+@media (max-width: 576px) {
+    .wrapper{
+        width: 100%;
+    }
+    .phoneimage img {
+        max-width: 100%;
+    }
+    .imagecontent img {
+        height: 0vh;
+    }
+    }
+}
