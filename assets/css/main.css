@@ -7,8 +7,8 @@
     src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
 }
 /*HEADER*/
-*{
-    scroll-behavior: smooth ;
+html{
+    scroll-behavior: smooth !important;
 }
 
 .header{
