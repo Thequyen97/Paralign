@@ -7,9 +7,10 @@
     src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
 }
 /*HEADER*/
-html{
-    scroll-behavior: smooth !important;
+*{
+    scroll-behavior: smooth ;
 }
+
 .header{
     display: block;
     background-color: #FFFFFF;
@@ -31,8 +32,8 @@ html{
     color: #575757  ;
 }
 .navbar .container{ 
-        padding: 0 15px;
-        margin: 0 89.5px;
+        padding: 0;
+        margin: 0 205.5px;
     }
 .navbar-collapse{
     background-color: #FFFFFF;
@@ -156,7 +157,8 @@ html{
     font-family: "ProximaNova-Bold";
     font-size: 67px;
     color: #FFFFFF;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
+    margin-top: -110px;
 }
 .text-white p{
     font-family: "ProximaNova-Light";
@@ -274,7 +276,7 @@ html{
     width: 100%;
     background-color: #FF5959;
     border-radius: 6px;
-    padding: 0 15px;
+    margin: 0 15px;
 }
 .sending{
     border: none;
@@ -480,10 +482,17 @@ html{
     .phoneimage img {
         max-width: 100%;
     }
+    .imgphone, .imagecontent, .content-title ,.mt-5{
+        padding: 0 15px;
+    }
 }
 @media (max-width: 992px) {
     .wrapper{
         width: 100%;
+    }
+
+    .section{
+        padding: 0;
     }
     .phoneimage img {
         max-width: 100%;
@@ -491,6 +500,9 @@ html{
     .navbar .container{
         padding: 0;
         margin: 0;
+    }
+    .imgphone, .imagecontent, .content-title ,.mt-5{
+        padding: 0 15px;
     }
 }
 @media (max-width: 768px) {
@@ -504,6 +516,9 @@ html{
         padding: 0;
         margin: 0;
     }
+    .imgphone, .imagecontent, .content-title ,.mt-5{
+        padding: 0 15px;
+    }
 
 }
 @media (max-width: 576px) {
@@ -516,5 +531,8 @@ html{
     .navbar .container{
         padding: 0;
         margin: 0;
+    }
+    .imgphone, .imagecontent, .content-title ,.mt-5{
+        padding: 0 15px;
     }
 }
