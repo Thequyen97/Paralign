@@ -38,6 +38,9 @@ html{
     background-color: #FFFFFF;
     z-index: 199;
 }
+/* .header .container button{
+    background-color: #FFFFFF;
+} */
 .fixed-nav{
     position: fixed;
     top: 0;
@@ -485,12 +488,21 @@ html{
     .phoneimage img {
         max-width: 100%;
     }
+    .navbar .container{
+        padding: 0;
+        margin: 0;
+    }
+}
 @media (max-width: 768px) {
     .wrapper{
         width: 100%;
     }
     .phoneimage img {
          max-width: 100%;
+    }
+    .navbar .container{
+        padding: 0;
+        margin: 0;
     }
 
 }
@@ -501,5 +513,8 @@ html{
     .phoneimage img {
         max-width: 100%;
     }
-}
+    .navbar .container{
+        padding: 0;
+        margin: 0;
+    }
 }
