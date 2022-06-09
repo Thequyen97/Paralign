@@ -174,11 +174,17 @@ html{
     color: #FFFFFF;
 }
 /*SECTION*/
-.title-left{
-    padding: 150px 53px 0 100px;
+.row{
+    margin: 0;
 }
-.title-right{
-    padding: 150px 100px 0 53px;
+.title-section{
+    max-width: 590px;
+}
+.float-right{
+    padding: 150px 53px 0 35px;
+}
+.float-left{
+    padding: 150px 35px 0 53px;
 }
 
 .title h2{
@@ -307,9 +313,9 @@ html{
     border: 1px solid #979797;
     margin-bottom: 30px;
 }
-.form-center .form-control{
-    /* height: auto; */ 
-}
+/* .form-center .form-control{
+    height: auto; 
+} */
 .send-message{
     text-align: center;
     width: 100%;
@@ -318,7 +324,7 @@ html{
 }
 .sending{
     border-radius: 6px ;
-    border: #FF5959;
+    border:1px #FF5959 solid;
     background-color: #FF5959;
     height: 55px;
     width: 100%;
@@ -559,6 +565,7 @@ html{
     .navbar .container{
         padding: 0;
         margin: 0;
+        max-width: 1170px;
     }
     .imgphone, .imagecontent, .content-title ,.mt-5{
         padding: 0 15px;
@@ -574,6 +581,7 @@ html{
     .navbar .container{
         padding: 0;
         margin: 0;
+        max-width: 990px;
     }
     .imgphone, .imagecontent, .content-title ,.mt-5{
         padding: 0 15px;
@@ -591,6 +599,7 @@ html{
         max-width: none;
         padding: 0;
         margin: 0;
+        max-width: 767px;
     }
     .imgphone, .imagecontent, .content-title ,.mt-5{
         padding: 0 15px;
