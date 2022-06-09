@@ -35,10 +35,10 @@ html{
     font-family: 'ProximaNova-Bold';
     color: #575757  ;
 }
-.navbar .container{ 
+/* .navbar .container{ 
         padding: 0;
         margin: 0 205.5px;
-    }
+    } */
 .navbar-collapse{
     background-color: #FFFFFF;
     z-index: 199;
@@ -538,6 +538,10 @@ html{
     .phoneimage img {
         max-width: 100%;
     }
+    /* .navbar .container{ 
+        padding: 0;
+        margin: 0 205.5px;
+    } */
 }
 @media (max-width: 992px) {
     .wrapper{
